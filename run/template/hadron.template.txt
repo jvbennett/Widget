@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------------------
+# Widget File: hadron.template.txt
+# Author: Jake Bennett
+#
+# This is a template for the configuration file necessary to run the Widget. 
+# One must specify each of the parameters listed below or else use the 
+# Widget defaults.
+#
+# Other necessary inputs are:
+# - parameters.txt -> specifies the curve and sigma parameters
+# - sat-pars.txt -> initializes the saturation curve parameters
+# - validate.tex -> used for creating a pdf of the results
+# ---------------------------------------------------------------------------
+
+# specify BESIII (0) or Belle II (1)
+type 0
+
+# specify data (0) or MC (1)
+mcFlag 0
+
+# set the filename and other parameters
+pion filename /mnt/data/BESIIICALIBRATION/rscan15/rscan15_pion.root
+pion bgbins 30
+pion upperbg 6.44
+pion lowerbg 1.075
+pion uppercos 0.93
+pion lowercos 0.0
+
+kaon filename /mnt/data/BESIIICALIBRATION/rscan15/rscan15_kaon.root
+kaon bgbins 10
+kaon upperbg 1.721
+kaon lowerbg 0.608
+kaon uppercos 0.93
+kaon lowercos 0.0
+
+proton filename /mnt/data/BESIIICALIBRATION/rscan15/rscan15_proton.root
+proton bgbins 10
+proton upperbg 0.905
+proton lowerbg 0.373
+proton uppercos 0.93
+proton lowercos 0.0
+
+muon filename /mnt/data/BESIIICALIBRATION/rscan15/rscan15_muon.root
+muon bgbins 15
+muon upperbg 14.67
+muon lowerbg 9.654
+muon uppercos 0.93
+muon lowercos 0.0
+
+electron filename /mnt/data/BESIIICALIBRATION/rscan15/rscan15_electron.root
+electron bgbins 30
+electron upperbg 3000.0
+electron lowerbg 980.0
+electron uppercos 0.93
+electron lowercos 0.0

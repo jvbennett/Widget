@@ -1,0 +1,11 @@
+# specify we are using data
+mcFlag 0
+type 0
+
+electron filename /mnt/data/BESIIICALIBRATION/rscan15/rscan15_electron.root
+electron docabins 40
+electron upperdoca 1.1
+electron lowerdoca -1.1
+electron entabins 40
+electron upperenta 0.7854
+electron lowerenta -0.7854

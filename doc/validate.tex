@@ -1,0 +1,360 @@
+% 
+\documentclass{beamer}
+
+\usetheme{CambridgeUS}
+\usecolortheme{beaver}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{graphics}
+\usepackage{caption}
+\usepackage{subcaption}
+% \usepackage{subfigure}
+
+
+%\usepackage{beamerthemeshadow}
+%\useoutertheme{infolines}
+
+\begin{document}
+\title{BESIII dE/dx (Hadron) Calibration Results}  
+\author{Jake Bennett}
+\date{\today} 
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Table of contents}\tableofcontents
+\end{frame} 
+
+
+% \subsection{Individual Particle Quality Plots}
+\section{Samples} 
+\subsection{Pions}
+\begin{frame}\frametitle{Pions}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/pion_hp.eps} 
+\includegraphics[scale=0.25]{./plots/pion_hcosth.eps} 
+\caption{$cos(\theta)$ and momentum distribution of the sample.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Pions}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/pion_p_costh.eps} 
+\includegraphics[scale=0.25]{./plots/pion_nhit_pt.eps} 
+\caption{$p$ vs $cos(\theta)$ and $nhit$ vs $p_{t}$}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Pions}
+\begin{figure}
+\includegraphics[scale=0.5]{./pion_dedx_p.eps} 
+\caption{$dE/dx$ vs $p$ before and after the calibration.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Pions}
+\begin{figure}
+\includegraphics[scale=0.25]{./dedx_pion_corrected.eps} 
+\includegraphics[scale=0.25]{./dedx_pion_uncorrected.eps} 
+\caption{Hadron saturation correction. After (left), before (right). $dE/dx$ vs $cos(\theta)$. Different color is used for different momentum ranges.. Different color is used for different momentum ranges.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Pions mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chiallpion.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi0pion.eps}
+\caption{$\chi$ vs $cos(\theta)$ All Momentum (left), first momentum bin (right)}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Pions mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chi1pion.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi2pion.eps}
+\caption{$\chi$ vs $cos(\theta)$ Second momentum bin (left), third momentum bin (right)}
+\end{figure}
+\end{frame}
+
+\subsection{Kaons}
+\begin{frame}\frametitle{Kaons}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/kaon_hp.eps} 
+\includegraphics[scale=0.25]{./plots/kaon_hcosth.eps} 
+\caption{$cos(\theta)$ and momentum distribution of the sample.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Kaons}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/kaon_p_costh.eps} 
+\includegraphics[scale=0.25]{./plots/kaon_nhit_pt.eps} 
+\caption{$p$ vs $cos(\theta)$ and $nhit$ vs $p_{t}$}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Kaons}
+\begin{figure}
+\includegraphics[scale=0.5]{./kaon_dedx_p.eps} 
+\caption{$dE/dx$ vs $p$ before and after the calibration.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Kaons}
+\begin{figure}
+\includegraphics[scale=0.25]{./dedx_kaon_corrected.eps} 
+\includegraphics[scale=0.25]{./dedx_kaon_uncorrected.eps} 
+\caption{Hadron saturation correction. After (left), before (right). $dE/dx$ vs $cos(\theta)$. Different color is used for different momentum ranges.. Different color is used for different momentum ranges.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Kaons mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chiallkaon.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi0kaon.eps}
+\caption{$\chi$ vs $cos(\theta)$ All Momentum (left), first momentum bin (right)}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Kaons mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chi1kaon.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi2kaon.eps}
+\caption{$\chi$ vs $cos(\theta)$ Second momentum bin (left), third momentum bin (right)}
+\end{figure}
+\end{frame}
+
+\subsection{Protons}
+\begin{frame}\frametitle{Protons}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/proton_hp.eps} 
+\includegraphics[scale=0.25]{./plots/proton_hcosth.eps} 
+\caption{$cos(\theta)$ and momentum distribution of the sample.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Protons}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/proton_p_costh.eps} 
+\includegraphics[scale=0.25]{./plots/proton_nhit_pt.eps} 
+\caption{$p$ vs $cos(\theta)$ and $nhit$ vs $p_{t}$}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Protons}
+\begin{figure}
+\includegraphics[scale=0.5]{./proton_dedx_p.eps} 
+\caption{$dE/dx$ vs $p$ before and after the calibration.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Protons}
+\begin{figure}
+\includegraphics[scale=0.25]{./dedx_proton_corrected.eps} 
+\includegraphics[scale=0.25]{./dedx_proton_uncorrected.eps} 
+\caption{Hadron saturation correction. After (left), before (right). $dE/dx$ vs $cos(\theta)$. Different color is used for different momentum ranges.. Different color is used for different momentum ranges.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Protons mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chiallproton.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi0proton.eps}
+\caption{$\chi$ vs $cos(\theta)$ All Momentum (left), first momentum bin (right)}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Protons mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chi1proton.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi2proton.eps}
+\caption{$\chi$ vs $cos(\theta)$ Second momentum bin (left), third momentum bin (right)}
+\end{figure}
+\end{frame}
+
+\subsection{Muons}
+\begin{frame}\frametitle{Muons}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/muon_hp.eps} 
+\includegraphics[scale=0.25]{./plots/muon_hcosth.eps} 
+\caption{$cos(\theta)$ and momentum distribution of the sample.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Muons}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/muon_p_costh.eps} 
+\includegraphics[scale=0.25]{./plots/muon_nhit_pt.eps} 
+\caption{$p$ vs $cos(\theta)$ and $nhit$ vs $p_{t}$}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Muons}
+\begin{figure}
+\includegraphics[scale=0.5]{./muon_dedx_p.eps} 
+\caption{$dE/dx$ vs $p$ before and after the calibration.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Muons}
+\begin{figure}
+\includegraphics[scale=0.25]{./dedx_muon_corrected.eps} 
+\includegraphics[scale=0.25]{./dedx_muon_uncorrected.eps} 
+\caption{Hadron saturation correction. After (left), before (right). $dE/dx$ vs $cos(\theta)$. Different color is used for different momentum ranges.. Different color is used for different momentum ranges.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Muons mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chiallmuon.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi0muon.eps}
+\caption{$\chi$ vs $cos(\theta)$ All Momentum (left), first momentum bin (right)}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Muons mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chi1muon.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi2muon.eps}
+\caption{$\chi$ vs $cos(\theta)$ Second momentum bin (left), third momentum bin (right)}
+\end{figure}
+\end{frame}
+
+
+\subsection{Electrons}
+\begin{frame}\frametitle{Electrons}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/electron_hp.eps} 
+\includegraphics[scale=0.25]{./plots/electron_hcosth.eps} 
+\caption{$cos(\theta)$ and momentum distribution of the sample.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Electrons}
+\begin{figure}
+\includegraphics[scale=0.25]{./plots/electron_p_costh.eps} 
+\includegraphics[scale=0.25]{./plots/electron_nhit_pt.eps} 
+\caption{$p$ vs $cos(\theta)$ and $nhit$ vs $p_{t}$}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Electrons}
+\begin{figure}
+\includegraphics[scale=0.5]{./electron_dedx_p.eps} 
+\caption{$dE/dx$ vs $p$ before and after the calibration.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Electrons}
+\begin{figure}
+\includegraphics[scale=0.25]{./dedx_electron_corrected.eps} 
+\includegraphics[scale=0.25]{./dedx_electron_uncorrected.eps} 
+\caption{Hadron saturation correction. After (left), before (right). $dE/dx$ vs $cos(\theta)$. Different color is used for different momentum ranges.. Different color is used for different momentum ranges.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Electrons mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chiallelectron.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi0electron.eps}
+\caption{$\chi$ vs $cos(\theta)$ All Momentum (left), first momentum bin (right)}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Electrons mean distributions}
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=.5\columnwidth]{./plots/chi1electron.eps}
+\includegraphics[width=.5\columnwidth]{./plots/chi2electron.eps}
+\caption{$\chi$ vs $cos(\theta)$ Second momentum bin (left), third momentum bin (right)}
+\end{figure}
+\end{frame}
+
+
+
+\section{Final results}
+\subsection{Universal $dE/dx$ curve}
+\begin{frame}\frametitle{ $dE/dx$ vs $\beta \gamma$}
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/bgcurve.eps} 
+% \caption{Universal $dE/dx$ vs $\beta \gamma$.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{ $dE/dx$ vs $\beta \gamma$ curve fit residuals (fit/data)}
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/bgresidual.eps} 
+% \caption{$dE/dx$ vs $\beta \gamma$ fit / data}
+\end{figure}
+\end{frame}
+
+
+\subsection{$\chi$ mean values}
+\begin{frame}\frametitle{Mean $\chi$ vs $\beta \gamma$ hadrons}
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/chimeanVSbetagamma_zoom.eps} 
+% \caption{$\chi$ vs $\beta \gamma$.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{Mean $\chi$ vs $\beta \gamma$ electrons}
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/chimeanVSbetagamma.eps} 
+% \caption{$\chi$ vs $\beta \gamma$}
+\end{figure}
+\end{frame}
+
+\subsection{Resolution}
+\begin{frame}\frametitle{$\sigma$ vs $\beta \gamma$ hadrons}
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/sigmaVSbetagamma_zoom.eps} 
+\caption{$\chi$ vs $\beta \gamma$.}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{$\sigma$ vs $\beta \gamma$ electrons}
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/sigmaVSbetagamma.eps} 
+% \caption{$\chi$ vs $\beta \gamma$}
+\end{figure}
+\end{frame}
+
+\subsection{Resolution vs $dE/dx$}
+\begin{frame}\frametitle{$\sigma$ vs $dE/dx$ }
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/sigmavsdedx.eps} 
+% \caption{$\chi$ vs $dE/dx$}
+\end{figure}
+\end{frame}
+
+\subsection{$\sigma$ vs number of hits}
+\begin{frame}\frametitle{$\sigma$ vs number of hits }
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/sigmavsnhit.eps} 
+% \caption{$\sigma$ vs number of hits}
+\end{figure}
+\end{frame}
+
+\subsection{$\sigma$ vs $\sin(\theta)$}
+\begin{frame}\frametitle{$\sigma$ vs $\sin(\theta)$ }
+\begin{figure}
+\includegraphics[scale=0.45]{./plots/sigmavssinth.eps} 
+% \caption{$\sigma$ vs $\sin(\theta)$}
+\end{figure}
+\end{frame}
+
+
+
+
+
+\end{document}
